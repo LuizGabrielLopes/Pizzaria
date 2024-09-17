@@ -67,3 +67,14 @@
     align-items: center;
 }
 
+.content-title{
+    color: #fff;
+}
+
+.content-title:hover{
+    transform: scale(1.2);
+    color: rgb(241, 200, 16);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.452));
+    transition: all 0.5s;
+}
