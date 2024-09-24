@@ -1,0 +1,39 @@
+.site-body {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+}
+
+.text-title{
+    font-size: 1.5rem;
+}
+
+.image-title{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.pizza-image{
+    border-radius: 20px;
+}
