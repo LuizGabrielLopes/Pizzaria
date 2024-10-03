@@ -73,6 +73,8 @@
 .site-footer{
     background-color: #000;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 a {
@@ -84,4 +86,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+
+@media screen and (max-width: 960){
+    .logo {
+        width: 50%;
+    }
+    .content-title {
+        color: #fff;
+        display: none;
+    }
 }
