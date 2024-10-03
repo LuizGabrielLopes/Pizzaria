@@ -1,9 +1,11 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
 
-.header{
+.header {
+    position: absolute;
+    top: 0;
     width: 100%;
     height: 14rem;
     display: flex;
@@ -13,12 +15,12 @@
     background-color: rgb(160, 22, 22);
 }
 
-.logo{
+.logo {
     width: 90%;
     margin-left: 3rem;
 }
 
-.logo:hover{
+.logo:hover {
     transform: scale(1.2);
     color: rgb(241, 200, 16);
     -webkit-filter: drop-shadow(1rem 0.75rem 0.4rem rgb(247, 246, 246));
@@ -26,7 +28,7 @@
     transition: all 0.5s;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: aliceblue;
     font-size: 2rem;
@@ -34,7 +36,7 @@
     cursor: pointer;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transform: scale(1.2);
     color: rgb(241, 200, 16);
     -webkit-filter: drop-shadow(1rem 0.75rem 0.4rem rgba(0, 0, 0, .5));
@@ -42,25 +44,25 @@
     transition: all 0.5s;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     justify-content: space-between;
     width: 18.75rem;
 }
 
-.centralization{
-    margin-left:1.25rem ;
+.centralization {
+    margin-left: 1.25rem;
     width: 68.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.content-title{
+.content-title {
     color: #fff;
 }
 
-.content-title:hover{
+.content-title:hover {
     transform: scale(1.2);
     color: rgb(241, 200, 16);
     -webkit-filter: drop-shadow(1rem 0.75rem 0.4rem rgba(0, 0, 0, .5));
@@ -68,3 +70,18 @@
     transition: all 0.5s;
 }
 
+.site-footer{
+    background-color: #000;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

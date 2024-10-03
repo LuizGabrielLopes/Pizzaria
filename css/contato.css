@@ -1,4 +1,4 @@
-.site-body {
+.about-section{
     width: 50%;
     height: auto;
     border-radius: 20px;
@@ -20,33 +20,4 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.text-title{
-    font-size: 1.5rem;
-    margin: 0.5rem;
-}
-
-.image-title{
-    width: 50%;
-    height: auto;
-    border-radius: 20px;
-    flex-direction: column;
-    background-color: rgba(231, 215, 70, 0.658);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.pizza-image{
-    border-radius: 20px;
-    height: auto;
-    width: 50%;
-    margin: 1rem;
-}
-
-.pizza-text{
-    font-size: 1.5rem;
-    margin: 1rem;
 }
