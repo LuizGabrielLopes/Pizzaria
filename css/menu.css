@@ -2,7 +2,7 @@
     height: auto;
     width: 50%;
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 0, 0, 0.534);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,13 +13,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(/image/pizza-deliciosa-com-uma-base-dourada-marrom-crocante-e-queijo-derretido_161754-13030.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
     
 .pizza{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    color: #ffff;
 }
 
 #pizza-de-frango{
@@ -33,10 +38,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ffff;
 }
 
 .bebidas{
     gap: 30px;
+}
+
+.title-2{
+    color: #ffff;
 }
 
 @media screen and (max-width: 1363px) {
